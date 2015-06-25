@@ -1,0 +1,93 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" tools:context=".SplashActivity"
+    android:background="#1A237E"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:background="@drawable/logolayoutdesign"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/homelogo"
+            android:id="@+id/androidlogoanim"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center_horizontal"
+            android:text="SCRAWL DEVELOPERS"
+            android:layout_marginBottom="15dp"
+            android:textSize="30dp"
+            android:id="@+id/logosecond"/>
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/logolayoutdesign"
+        android:orientation="vertical"
+
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:textSize="15sp"
+            android:text="Mortuza Shahariar"
+            android:layout_marginTop="20dp"
+            android:id="@+id/firstname"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Mortuza Shahariar"
+            android:layout_gravity="center_horizontal|center_vertical"
+            android:id="@+id/escondname"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:textSize="15sp"
+            android:text="Mortuza Shahariar"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/thirsnamename"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="bottom|center_horizontal"
+            android:textColor="#FFFF"
+            android:gravity="bottom"
+            android:layout_marginBottom="10dp"
+            android:textSize="15sp"
+            android:text="Copyright © 2015 by Scrawl Developers™"
+            android:id="@+id/copyright"/>
+
+    </LinearLayout>
+
+
+
+
+
+
+</LinearLayout>
+

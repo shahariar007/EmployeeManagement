@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Employee Management</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_main">BASIS Employee Management</string>
+    <string name="title_activity_registration_employee">Registration Employee</string>
+    <string name="title_activity_show_emplyee">ShowEmplyee</string>
+</resources>
